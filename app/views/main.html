@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand">SB Admin v2.0</a>
+    </div>
+    <ul class="nav navbar-top-links navbar-right" ng-include="'./app/views/header.html'"></ul>
+    <div ng-include="'./app/views/sidebar.html'"></div>  
+</nav>
+<div id="page-wrapper">
+  <div ui-view></div>
+</div>
+    
